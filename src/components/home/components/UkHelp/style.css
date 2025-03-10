@@ -1,0 +1,123 @@
+/* Загальний контейнер */
+.container {
+    position: absolute;
+    width: 1298px;
+    height: 350px;
+    left: 0;
+    top: 0;
+    border-radius: 8px;
+    background: rgb(255, 112, 134);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 90px;
+    
+    margin: 20px auto; /* Центрування компонента на сторінці */
+    position: relative; /* Забезпечує коректне позиціонування */
+}
+
+
+/* Контент */
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1120px;
+    height: 138px;
+}
+
+/* Блок тексту */
+.text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+/* Заголовок */
+.title {
+    color: rgb(8, 2, 23);
+    font-family: "Skema Pro Omni", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    margin: 0;
+}
+
+/* Текст */
+.body-text {
+    color: rgb(0, 0, 0);
+    font-family: "Gotham", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0;
+}
+
+/* Кнопка */
+.button {
+    box-sizing: border-box;
+    /* base/Platinum */
+    border: 1.27px solid rgb(230, 223, 231);
+    border-radius: 5.07px;
+
+    box-shadow: 0px 2.54px 0px 0px rgba(0, 0, 0, 0.02);
+    /* base/Rich Black */
+    background: rgb(8, 2, 23);
+
+    /* Type=Default, Size=Default, State=Hover, Content=Basic, Ghost=False, Danger=False, Shape=Default (Group 116) */
+    position: static;
+    width: 233px;
+    height: 60.9px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10.149621963500977;
+    padding: 0px 19.03px 0px 19.03px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 115px;
+
+
+    /* Content (Group 116) */
+    position: static;
+    width: 181.81px;
+    height: 40.6px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10.149621963500977;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10.149621963500977px 0px;
+
+
+    color: rgb(230, 223, 231);
+font-family: Fixel Display;
+font-size: 17.76px;
+font-weight: 400;
+line-height: 27.91px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+/* Ефект наведення на кнопку */
+.button:hover {
+    background: rgb(230, 100, 120);
+}

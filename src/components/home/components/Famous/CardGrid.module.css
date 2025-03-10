@@ -1,0 +1,110 @@
+/* Заголовок */
+.cardgrid-main-title {
+    color: rgb(230, 223, 231);
+    font-family: 'Skema Pro Omni', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    text-align: left;
+    width: 392px;
+    height: 38px;
+    margin-bottom: 20px;
+}
+
+/* Текст заголовку картки */
+.cardgrid-title {
+    color: rgb(255, 255, 255);
+    font-family: 'Skema Pro Omni', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    margin: 0;
+}
+
+/* Сітка карток */
+/* Сітка карток */
+.cardgrid-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap; /* Всі картки в один ряд */
+    overflow-x: auto; /* Додаткова горизонтальна прокрутка, якщо потрібно */
+}
+
+
+/* Додатковий відступ для сітки */
+.cardgridMargin {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* Оформлення картки */
+.card {
+    width: 288.30px;
+    height: 381.27px;
+    flex-shrink: 0; /* Забороняємо зменшення */
+    position: relative;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 112, 134);
+    border-radius: 4px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Вміст картки */
+.cardgrid-text-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px 21px;
+}
+
+.cardgrid-subtitle {
+    color: rgb(188, 152, 201);
+    font-family: 'Gotham', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 5px 0 0;
+}
+
+/* Зображення */
+.cardgridImage {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 262px;
+    height: 390.05px;
+    object-fit: cover;
+}
+
+/* Блок опису, що з'являється при наведенні */
+.cardgrid-hover-description {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-family: 'Gotham', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    padding: 10px;
+    transition: bottom 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+}
+
+.card:hover .cardgrid-hover-description {
+    bottom: 0;
+    opacity: 1;
+}
+
+.hidden {
+    display: none;
+}

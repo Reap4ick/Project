@@ -1,0 +1,195 @@
+/* Загальні стилі */
+.footer {
+    /* margin-top: auto; */
+    position: relative;
+    bottom: 0;
+    left: 0;
+    height: 371px;
+    left: 0;
+    /* top: 2758px; */
+    width: 100%;
+    border-top: 1px solid #FF7086;
+    z-index: 1000;
+  }
+  
+  /* Про нас, Роботи, Контакти */
+  .group-28 {
+    position: absolute;
+    left: 80.25%;
+    /* right: 27.01%; */
+    top: 11.43%;
+    /* bottom: 57.36%; */
+  }
+  
+  .about-us,
+  .works,
+  .contacts {
+    font-family: 'Gotham', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    color: #BC98C9;
+  }
+  
+  .about-us {
+    top: 11.43%;
+    bottom: 80.77%;
+  }
+  
+  .works {
+    top: 22.85%;
+    bottom: 69.34%;
+  }
+  
+  .contacts {
+    top: 34.84%;
+    bottom: 57.36%;
+  }
+  
+  /* Покупцям, Художникам, Інформація */
+  .frame-38 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 128px;
+    position: absolute;
+    left: 4.86%;
+    right: 40.69%;
+    top: 11.43%;
+    bottom: 42.87%;
+  }
+  
+  .group-25, .group-26, .group-27 {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .customers, .artists, .information {
+    font-family: 'Gotham', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #BC98C9;
+  }
+  
+  .how-to-buy,
+  .rules,
+  .returns,
+  .other-questions,
+  .collaboration,
+  .privacy-policy,
+  .terms-of-use {
+    font-family: 'Gotham', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E6DFE7;
+  }
+  
+  /* Логотип і опис */
+  .frame-39 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+    position: absolute;
+    left: 4.86%;
+    right: 27.46%;
+    top: 68.46%;
+    bottom: 5.39%;
+  }
+  
+  .logo-placeholder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10.7866px;
+    gap: 5.39px;
+    width: 81.57px;
+    height: 93.82px;
+  }
+  
+  .logo {
+    width: 60px;
+    height: 72.25px;
+  }
+  
+  .art-ua {
+    font-family: 'Skema Pro Omni', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.4374px;
+    line-height: 15px;
+    color: #E6DFE7;
+  }
+  
+  .place-of-power,
+  .rights {
+    font-family: 'Gotham', sans-serif;
+    font-style: normal;
+    color: #E6DFE7;
+  }
+  
+  .place-of-power {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .rights {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #BC98C9;
+  }
+  
+  /* Іконки соцмереж */
+  .frame-36 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 16px;
+    position: absolute;
+    left: 77.08%;
+    right: 4.86%;
+    top: 70.41%;
+    bottom: 14.81%;
+  }
+  
+  .group-32, .group-31, .group-30, .group-29 {
+    width: 53px;
+    height: 53px;
+    position: relative;
+  }
+  
+  .ellipse {
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    background: #410C55;
+  }
+  
+  .wechat-icon, .telegram-icon, .google-icon, .instagram-icon {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 11px;
+    left: 11px;
+    background: #E6DFE7;
+  }
+
+
+
+
+
+
+  
